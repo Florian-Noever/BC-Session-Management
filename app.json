@@ -1,0 +1,39 @@
+{
+    "id": "c5cc362d-da7c-4558-9419-df3a90a9daaa",
+    "name": "BC Session Management",
+    "publisher": "Florian Noever",
+    "version": "1.0.0.1",
+
+    "brief": "Monitor and manage Business Central user sessions",
+    "description": "A lightweight Microsoft Dynamics 365 Business Central extension for monitoring active sessions, terminating sessions when necessary, and reviewing users' most recent sign-in and sign-off activity.",
+    
+    "EULA": "https://github.com/Florian-Noever/BC-Session-Management/blob/main/LICENSE",
+    "help": "https://github.com/Florian-Noever/BC-Session-Management/issues",
+    "contextSensitiveHelpUrl": "https://github.com/Florian-Noever/BC-Session-Management",
+    "url": "https://github.com/Florian-Noever/BC-Session-Management",
+    
+    "logo": "assets/icon-x512.png",
+
+    "platform": "23.0.0.0",
+    "application": "23.0.0.0",
+    "target": "Cloud",
+    "runtime": "11.0",
+
+    "idRanges": [
+        {
+            "from": 52500,
+            "to": 52549
+        }
+    ],
+
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith"
+    ],
+    
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    }
+}
