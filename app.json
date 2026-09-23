@@ -2,7 +2,7 @@
     "id": "c5cc362d-da7c-4558-9419-df3a90a9daaa",
     "name": "BC Session Management",
     "publisher": "Florian Noever",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
 
     "brief": "Monitor and manage Business Central user sessions",
     "description": "A lightweight Microsoft Dynamics 365 Business Central extension for monitoring active sessions, terminating sessions when necessary, and reviewing users' most recent sign-in and sign-off activity.",
