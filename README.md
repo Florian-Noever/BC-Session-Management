@@ -180,19 +180,26 @@ BC Session Management can be useful for administrators, developers, consultants,
 
 ## Installation
 
-Build the project using the AL Language extension for Visual Studio Code.
+Download the [latest release](https://github.com/Florian-Noever/BC-Session-Management/releases/latest) from the project's **GitHub Releases** page.
 
-The generated `.app` package can then be published to the target Business Central environment.
+Each release is provided as a `.zip` archive containing the compiled Business Central `.app` package.
+
+1. Download the `.zip` file from the latest GitHub release.
+2. Extract the archive.
+3. Locate the included `.app` file.
+4. Publish and install the `.app` file in your Business Central environment.
 
 ### Business Central Online
 
-For development and testing, the extension can be published directly from Visual Studio Code to a Business Central sandbox.
+Upload the extracted `.app` file through the **Extension Management** page in Business Central.
 
-Per-tenant extensions can also be uploaded to an eligible Business Central environment using the appropriate extension deployment functionality.
+Open **Extension Management**, choose **Manage → Upload Extension**, select the `.app` file, and follow the installation dialog.
 
 ### Business Central On-Premises
 
-For Business Central on-premises, publish, synchronize, and install the generated `.app` package using the Business Central Administration Shell or the deployment process used by your environment.
+For Business Central on-premises, use the extracted `.app` file with the Business Central Administration Shell or your environment's normal extension deployment process.
+
+The extension must be published, synchronized, and installed before it becomes available to users.
 
 ## Compatibility
 
