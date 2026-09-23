@@ -1,4 +1,4 @@
-# ![BC Session Management Icon](https://raw.githubusercontent.com/Florian-Noever/BC-Session-Management/refs/heads/main/assets/icon-x64.png) BC Session Management
+# <img src="./assets/icon.svg" alt="" height="26"> BC Session Management
 
 A lightweight Microsoft Dynamics 365 Business Central extension for monitoring active sessions, terminating sessions when necessary, and reviewing users' most recent sign-in and sign-off activity.
 
