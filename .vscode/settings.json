@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        ".snapshots": true,
+        "*.app": true,
+    },
+    "search.exclude": {
+        ".snapshots": true,
+        "*.app": true,
+    },
+}
